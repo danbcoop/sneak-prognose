@@ -1,0 +1,55 @@
+await fetch("https://letterboxd.com/s/update-list", {
+    "credentials": "include",
+    "headers": {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0",
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Accept-Language": "de,en-US;q=0.9,en;q=0.8",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "X-Requested-With": "XMLHttpRequest",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin"
+    },
+    "referrer": "https://letterboxd.com/kpunkt/list/sneak-prognose/edit/",
+    "body": "__csrf=047878e99489a76f60fe&filmListId=80267534&update=%7B%22version%22%3A%222%22%2C%22name%22%3A%22Sneak+Prognose%22%2C%22description%22%3A%22Was+kann+diese+Woche+in+der+Sneak-Preview+kommen%3F%5Cn%5Cn(Quelle%3A+%3Ca+href%3D%5C%22https%3A%2F%2Fwww.sneak-kino.de%2F%5C%22%3Ehttps%3A%2F%2Fwww.sneak-kino.de%2F%3C%2Fa%3E)%22%2C%22tags%22%3A%5B%5D%2C%22published%22%3Atrue%2C%22sharePolicy%22%3A%22You%22%2C%22ranked%22%3Atrue%2C%22entries%22%3A%5B%7B%22film%22%3A%229X0m%22%2C%22action%22%3A%22ADD%22%7D%2C%7B%22action%22%3A%22DELETE%22%2C%22position%22%3A9%7D%2C%7B%22film%22%3A%229X0m%22%2C%22action%22%3A%22ADD%22%7D%5D%7D",
+    "method": "POST",
+    "mode": "cors"
+});
+
+await fetch("https://letterboxd.com/s/update-list", {
+    "credentials": "include",
+    "headers": {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0",
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Accept-Language": "de,en-US;q=0.9,en;q=0.8",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "X-Requested-With": "XMLHttpRequest",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin"
+    },
+    "referrer": "https://letterboxd.com/kpunkt/list/sneak-prognose/edit/",
+    "body": "__csrf=047878e99489a76f60fe&filmListId=80267534&update=%7B%22version%22%3A%224%22%2C%22name%22%3A%22Sneak+Prognose%22%2C%22description%22%3A%22Was+kann+diese+Woche+in+der+Sneak-Preview+kommen%3F%5Cn%5Cn(Quelle%3A+%3Ca+href%3D%5C%22https%3A%2F%2Fwww.sneak-kino.de%2F%5C%22%3Ehttps%3A%2F%2Fwww.sneak-kino.de%2F%3C%2Fa%3E)%22%2C%22tags%22%3A%5B%5D%2C%22published%22%3Atrue%2C%22sharePolicy%22%3A%22You%22%2C%22ranked%22%3Atrue%2C%22entries%22%3A%5B%7B%22film%22%3A%229X0m%22%2C%22action%22%3A%22ADD%22%7D%5D%7D",
+    "method": "POST",
+    "mode": "cors"
+});
+
+
+DELETE:
+await fetch("https://letterboxd.com/s/update-list", {
+    "credentials": "include",
+    "headers": {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0",
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Accept-Language": "de,en-US;q=0.9,en;q=0.8",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "X-Requested-With": "XMLHttpRequest",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin"
+    },
+    "referrer": "https://letterboxd.com/kpunkt/list/sneak-prognose/edit/",
+    "body": "__csrf=047878e99489a76f60fe&filmListId=80267534&update=%7B%22version%22%3A%225%22%2C%22name%22%3A%22Sneak+Prognose%22%2C%22description%22%3A%22Was+kann+diese+Woche+in+der+Sneak-Preview+kommen%3F%5Cn%5Cn(Quelle%3A+%3Ca+href%3D%5C%22https%3A%2F%2Fwww.sneak-kino.de%2F%5C%22%3Ehttps%3A%2F%2Fwww.sneak-kino.de%2F%3C%2Fa%3E)%22%2C%22tags%22%3A%5B%5D%2C%22published%22%3Atrue%2C%22sharePolicy%22%3A%22You%22%2C%22ranked%22%3Atrue%2C%22entries%22%3A%5B%7B%22action%22%3A%22DELETE%22%2C%22position%22%3A9%7D%5D%7D",
+    "method": "POST",
+    "mode": "cors"
+});
