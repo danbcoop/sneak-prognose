@@ -27,7 +27,7 @@ def get_movie_names():
                 date_string = s[s.find("Update:"):].split(":")[1].split(",")[0].strip()
                 update = date.strptime(f"{date_string}", "%d.%m.%Y")
             if div.find("h2") and "Sneak-Prognose für" in div.find("h2").text:
-                print(div.find("h2").text)
+                print(div.find("h2").text.split("(")[1].removesuffix(")"))
                 li = div.find_all("li")
                 for i in li:
                     movie_names.append(clean_movie_name(i.text))
